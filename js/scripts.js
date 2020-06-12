@@ -2,13 +2,13 @@
 const beep = 'Beep!'
 const boop = 'Boop'
 const welcome = "Won't you be my neighbor?"
-//function to create and push into range array from 0 to user input
+
 function rangeConverter(numberInput) {
-  let range = []; //establish blank array
+  let range = []; 
   for (let i = 0; i <= numberInput; i++) {
-    range.push([i].toString()); // pushes into range array and converts elements to string
-  }
-//function to replace numbers in spec sheet with specified variables above
+    range.push([i].toString()); 
+  };
+
   let result = range.map(function(element) {
     if (element.includes('3')) {
       return element = welcome;
@@ -19,9 +19,9 @@ function rangeConverter(numberInput) {
     } else {
       return element;
     }
-  })
-  return result; 
-}
+  });
+  return result.toString(); 
+};
 // User Interface Logic
 $(document).ready(function() {
   $('form#userNumber').submit(function(event) {
@@ -33,7 +33,9 @@ $(document).ready(function() {
       return;
     }
 
-    const results = rangeConverter(numberInput);
+    let results = rangeConverter(numberInput);
+    console.log(typeof results);
+
     $('#rangeResult').show();
     $('#userInput').text(numberInput);
     $('#rangeOutput').text(results);
