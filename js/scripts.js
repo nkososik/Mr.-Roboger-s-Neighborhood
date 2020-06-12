@@ -3,6 +3,14 @@ const beep = 'Beep!'
 const boop = 'Boop'
 const welcome = "Won't you be my neighbor?"
 
+const rangeConverter = function(numberInput) {
+  let range = [];
+  for (let i = 0; i <= numberInput; i++) {
+    range.push(i.toString());
+  };
+
+
+};
 
 // User Interface Logic
 $(document).ready(function() {
