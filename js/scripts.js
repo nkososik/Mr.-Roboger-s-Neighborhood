@@ -24,8 +24,8 @@ $(document).ready(function() {
     event.preventDefault();
 
     const numberInput = parseInt($('input[name=number]').val());
-    if (!numberInput || numberInput < 0 || numberInput > 10000) {
-      alert("Enter a friendly positive number wouldn't ya neighbor? (please keep it no greater than 10,000 to keep my memory in tip-top shape!)");
+    if (!numberInput || numberInput < 0 || numberInput >= 10000) {
+      alert("Enter a friendly positive number wouldn't ya neighbor? (please keep it smaller than 10,000 to keep my memory in tip-top shape!)");
       return;
     }
 
