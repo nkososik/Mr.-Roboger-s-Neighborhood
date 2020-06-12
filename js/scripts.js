@@ -1,21 +1,16 @@
 // Business Logic
-const beep = 'Beep!'
-const boop = 'Boop'
-const welcome = "Won't you be my neighbor?"
-
 function rangeConverter(numberInput) {
   let range = []; 
   for (let i = 0; i <= numberInput; i++) {
     range.push([i].toString()); 
   };
-
   let result = range.map(function(element) {
     if (element.includes('3')) {
       return element = '"Won\'t you be my neighbor?"';
     } else if (element.includes('2')) {
-      return element = boop;
+      return element = '"Boop"';
     } else if (element.includes('1')) {
-      return element = beep;
+      return element = '"Beep!"';
     } else {
       return element;
     }
