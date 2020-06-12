@@ -10,8 +10,10 @@ const rangeConverter = function(numberInput) {
   };
 //function to replace numbers in spec sheet with specified variables above
   const stringInputs = range.map(function(element) {
-    if (element.includes("3")) {
+    if (element.includes('3')) {
       return element = welcome;
+    } else if (element.includes('2')) {
+      return element = boop;
     }
 
   });
