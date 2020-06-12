@@ -14,6 +14,8 @@ const rangeConverter = function(numberInput) {
       return element = welcome;
     } else if (element.includes('2')) {
       return element = boop;
+    } else if (element.includes('1')) {
+      return element = beep;
     }
 
   });
