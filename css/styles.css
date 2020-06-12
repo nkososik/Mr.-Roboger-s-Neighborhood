@@ -1,3 +1,15 @@
+.result {
+  display: none;
+  margin-top: 25 px;
+  font-weight: bold;
+}
+
 .page-header {
   text-align: center;
+  background-color: inherit;
+}
+
+body {
+  background-color: lightgrey;
+
 }
