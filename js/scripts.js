@@ -17,7 +17,6 @@ const rangeConverter = function(numberInput) {
   });
 
 console.log(stringInputs)
-console.log(range);
 console.log(numberInput);
 };
 

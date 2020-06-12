@@ -15,9 +15,9 @@ _This project focuses on the use of BDD, utilizing HTML, CSS, and JS to create a
 | **Program form Gathers User Input** | User input: "9" | Form Output: "9" |
 | **Program does not Accept Negative and Non-Integer Input** | User input: "Hello" | Output: null |
 | **Program Returns a Range of Numbers from 0 to User Input**| User Input: "5" | Output: "0, 1, 2, 3, 4, 5" |
-| **For Numbers that Contain a 1, Program Returns "Beep!" in its Place**| Input: "4" | Output: "0, 'Beep!', 2, 3, 4" |
-| **For Numbers that Contain a 2, Program Returns "Boop" in its Place**| Input: "4" | Output: "0, 'Beep!', 'Boop', 3, 4" |
-| **For Numbers that Contain a 3, Program Returns "Won't you be my neighbor?" in its Place**| Input: "4" | Output: "0, 'Beep!', 'Boop', 'Won't you be my neighbor?', 4" |
+| **For Numbers that Contain a 3, Program Returns "Won't you be my neighbor?" in its Place**| Input: "4" | Output: "0, 1, 2, 'Won't you be my neighbor?', 4" |
+| **For Numbers that Contain a 2, Program Returns "Boop" in its Place**| Input: "4" | Output: "0, 1, 'Boop', 'Won't you be my neighbor?', 4" |
+| **For Numbers that Contain a 1, Program Returns "Beep!" in its Place**| Input: "4" | Output: "0, 'Beep!', 'Boop', 'Won't you be my neighbor?', 4" |
 | **For Numbers that Contain a 2 and a 1, Program Returns "Boop" in its Place**| Input: "12" | Output: "0, 'Beep!', 'Boop', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop'" |
 | **For Numbers that Contain a 3 with a 2 or 1, Program Returns "Won't you be my neighbor?" in its Place**| Input: "13" | Output: "0, 'Beep!', 'Boop', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop', 'Won't you be my neighbor?'" |
 
