@@ -11,5 +11,10 @@ $(document).ready(function() {
       return;
     }
 
+    const convertedRange = rangeConverter(numberInput);
+
+    $('#rangeResult').show();
+    $('#userInput').text(numberInput);
+    $('#rangeOutput').text(convertedRange);
   })
 });
