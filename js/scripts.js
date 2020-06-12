@@ -1,7 +1,7 @@
 
 // User Interface Logic
 $(document).ready(function() {
-  $('form#userInput').submit(function(event) {
+  $('form#numberInput').submit(function(event) {
     event.preventDefault();
   })
 });
