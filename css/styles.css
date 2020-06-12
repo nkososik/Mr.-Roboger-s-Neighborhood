@@ -1,22 +1,8 @@
-body {
-  background-color: lightgrey;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-.well {
+.page-header {
+  text-align: center;
   background-color: inherit;
   font-family: inherit;
-  margin-top: 35px;
-  font-size: smaller;
-  border: none;
 }
-/* .overlay {
-
-}
-
-img:hover .overlay{
-  width: 100%;
-} */
 
 #bender {
   float: left;
@@ -28,15 +14,25 @@ img:hover .overlay{
   width: 300px;
 }
 
+body {
+  background-color: lightgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.well {
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: 35px;
+  border: none;
+}
+
+blockquote p {
+  font-size: 0.7em !important;
+}
+
 .result {
   display: none;
   margin-top: 25 px;
   font-weight: bold;
-  font-family: inherit;
-}
-
-.page-header {
-  text-align: center;
-  background-color: inherit;
   font-family: inherit;
 }
