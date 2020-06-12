@@ -1,3 +1,19 @@
+body {
+  background-color: lightgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#bender {
+  float: left;
+  width: 300px;
+}
+
+#rogers {
+  float: right;
+  width: 300px;
+}
+
 .result {
   display: none;
   margin-top: 25 px;
@@ -9,10 +25,4 @@
   text-align: center;
   background-color: inherit;
   font-family: inherit;
-}
-
-body {
-  background-color: lightgrey;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
