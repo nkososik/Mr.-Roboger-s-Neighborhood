@@ -11,7 +11,7 @@ function rangeConverter(numberInput) {
 
   let result = range.map(function(element) {
     if (element.includes('3')) {
-      return element = welcome;
+      return element = '"Won\'t you be my neighbor?"';
     } else if (element.includes('2')) {
       return element = boop;
     } else if (element.includes('1')) {
@@ -20,7 +20,7 @@ function rangeConverter(numberInput) {
       return element;
     }
   });
-  return result.toString(); 
+  return result.join(', '); 
 };
 // User Interface Logic
 $(document).ready(function() {
