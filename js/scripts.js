@@ -6,7 +6,7 @@ const welcome = "Won't you be my neighbor?"
 const rangeConverter = function(numberInput) {
   let range = []; //establish blank array
   for (let i = 0; i <= numberInput; i++) {
-    range.push(i.toString()); // pushes into range array and converts elements to string
+    range.push([i].toString()); // pushes into range array and converts elements to string
   };
 //function to replace numbers in spec sheet with specified variables above
   const stringInputs = range.map(function(element) {
@@ -16,12 +16,10 @@ const rangeConverter = function(numberInput) {
       return element = boop;
     } else if (element.includes('1')) {
       return element = beep;
-    }
-
+    } else return element;
   });
 
-console.log(stringInputs)
-console.log(numberInput);
+console.log(stringInputs);
 };
 
 // User Interface Logic
@@ -36,7 +34,7 @@ $(document).ready(function() {
     }
 
     const convertedRange = rangeConverter(numberInput);
-
+    console.log(convertedRange);
     $('#rangeResult').show();
     $('#userInput').text(numberInput);
     $('#rangeOutput').text(convertedRange);
