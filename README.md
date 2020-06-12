@@ -21,6 +21,7 @@ _This project focuses on the use of BDD, utilizing HTML, CSS, and JS to create a
 | **For Numbers that Contain a 2 and a 1, Program Returns "Boop" in its Place**| Input: "12" | Output: "0, 'Beep!', 'Boop', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop'" |
 | **For Numbers that Contain a 3 with a 2 or 1, Program Returns "Won't you be my neighbor?" in its Place**| Input: "13" | Output: "0, 'Beep!', 'Boop', 'Won't you be my neighbor?', 4, 5, 6, 7, 8, 9, 'Beep!', 'Beep!', 'Boop', 'Won't you be my neighbor?'" |
 | **Program Returns String that Contains Converted Array onto HTML Page**| Input: "5" | Output: "0, 'Beep!', 'Boop', 'Won't you be my neighbor?', 4, 5" |
+| **Program Removes Old Output and Places New Output Whenever a New Input is Submitted**| Input: "3" | Output: "0, 'Beep!', 'Boop', 'Won't you be my neighbor?'" |
 
 ## Setup/Installation Requirements
 
