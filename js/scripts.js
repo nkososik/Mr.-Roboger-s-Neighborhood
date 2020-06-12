@@ -2,13 +2,21 @@
 const beep = 'Beep!'
 const boop = 'Boop'
 const welcome = "Won't you be my neighbor?"
-
+//function to create and push into range array from 0 to user input
 const rangeConverter = function(numberInput) {
-  let range = [];
+  let range = []; //establish blank array
   for (let i = 0; i <= numberInput; i++) {
-    range.push(i.toString()); // pushes range 
+    range.push(i.toString()); // pushes into range array and converts elements to string
   };
+//function to replace numbers in spec sheet with specified variables above
+  const stringInputs = range.map(function(element) {
+    if (element.includes("3")) {
+      return element = welcome;
+    }
 
+  });
+
+console.log(stringInputs)
 console.log(range);
 console.log(numberInput);
 };
