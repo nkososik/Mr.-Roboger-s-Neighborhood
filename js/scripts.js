@@ -1,4 +1,8 @@
 // Business Logic
+const beep = 'Beep!'
+const boop = 'Boop'
+const welcome = "Won't you be my neighbor?"
+
 
 // User Interface Logic
 $(document).ready(function() {
