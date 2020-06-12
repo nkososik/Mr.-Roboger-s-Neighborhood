@@ -3,6 +3,20 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+.well {
+  background-color: inherit;
+  font-family: inherit;
+  margin-top: 35px;
+  font-size: smaller;
+  border: none;
+}
+/* .overlay {
+
+}
+
+img:hover .overlay{
+  width: 100%;
+} */
 
 #bender {
   float: left;
