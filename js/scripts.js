@@ -5,6 +5,11 @@ $(document).ready(function() {
   $('form#userNumber').submit(function(event) {
     event.preventDefault();
     const numberInput = parseInt($('input[name=number]').val());
-    console.log(numberInput);
+
+    if (!numberInput || numberInput < 0) {
+      alert("Enter a friendly positive number wouldn't ya neighbor?");
+      return;
+    }
+
   })
 });
