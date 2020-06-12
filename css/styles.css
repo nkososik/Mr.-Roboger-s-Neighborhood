@@ -2,14 +2,17 @@
   display: none;
   margin-top: 25 px;
   font-weight: bold;
+  font-family: inherit;
 }
 
 .page-header {
   text-align: center;
   background-color: inherit;
+  font-family: inherit;
 }
 
 body {
   background-color: lightgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
