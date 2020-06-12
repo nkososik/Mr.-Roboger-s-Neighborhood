@@ -32,7 +32,7 @@ blockquote p {
 
 .result {
   display: none;
-  margin-top: 25 px;
+  padding-top: 25 px;
   font-weight: bold;
   font-family: inherit;
 }
